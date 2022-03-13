@@ -1,0 +1,2 @@
+# triange
+Triange - triangular minesweeper
