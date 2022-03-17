@@ -1,6 +1,6 @@
 {
-    "name": "triange",
-    "version": "0.1.0",
+    "name": "@vxs/triange-lib",
+    "version": "1.0.0",
     "private": true,
     "main": "./lib/index.js",
     "module": "./lib/index.js",
