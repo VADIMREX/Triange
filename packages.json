@@ -1,0 +1,7 @@
+{
+    "name": "vxs",
+    "private": true,
+    "workspaces": [
+        "triange-lib"
+    ]
+}
