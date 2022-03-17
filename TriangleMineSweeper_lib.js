@@ -82,9 +82,9 @@ Triangle_minesweeper_lib.prototype.simpleConsoleViewNotOpen = function(){
 };
 /**
  * Создаёт поле в зависимости от параметров
- * @param a - высота поля
- * @param b - ширина поля
- * @param c - количество мин
+ * @param {number} a - высота поля
+ * @param {number} b - ширина поля
+ * @param {number} c - количество мин
  */
 Triangle_minesweeper_lib.prototype.field_gen = function(a, b, c){
   /**
@@ -174,7 +174,11 @@ Triangle_minesweeper_lib.prototype.field_gen = function(a, b, c){
     this.field[i][b+3] = 127;
   }			
 };
-
+/**
+ * Открыть поле
+ * @param {number} x 
+ * @param {number} y 
+ */
 Triangle_minesweeper_lib.prototype.Open = function(x, y){
   var dir = (x%2+(y+1)%2)%2;
   switch(this.field[y][x]){		
