@@ -2,6 +2,7 @@
     "name": "vxs",
     "private": true,
     "workspaces": [
-        "triange-lib"
+        "triange-lib",
+        "vxs-triange-app"
     ]
 }
